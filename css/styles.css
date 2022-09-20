@@ -1,0 +1,192 @@
+/*основной текст*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+  background: #ffffff;
+}
+
+:root {
+  /*цвет кнопок, hover и focus элементов*/
+  --color-for-hovered: #2196f3;
+  /*цвет заголовков*/
+  --color-for-title: #212121;
+  /*цвет текста и кнопок*/
+  --color-button-text: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+/*скрытие заголовка*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*web*/
+.web,
+.studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-for-hovered);
+}
+
+/*studio*/
+.studio {
+  color: #000000;
+}
+
+/*навигация*/
+.nav-link,
+.mail-and-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-for-title);
+}
+
+/*почта + телефон*/
+.mail-and-tel {
+  color: #757575;
+}
+
+.nav-link.current {
+  color: var(--color-for-hovered);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.mail-and-tel:hover,
+.mail-and-tel:focus,
+.footer-link:hover,
+.footer-link:focus,
+.adress:hover,
+.adress:focus {
+  color: var(--color-for-hovered);
+}
+
+/* эффект */
+.order,
+footer {
+  background: #2f303a;
+}
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--color-button-text);
+}
+
+/*кнопка*/
+.hero-but {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--color-button-text);
+  background: var(--color-for-hovered);
+}
+
+.hero-but:hover,
+.hero-but:focus {
+  cursor: pointer;
+  color: var(--color-for-hovered);
+  background: var(--color-button-text);
+}
+
+.button-filtr:hover,
+.button-filtr:focus {
+  cursor: pointer;
+  color: var(--color-button-text);
+  background: var(--color-for-hovered);
+}
+
+/*заголовки*/
+.work h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--color-for-title);
+}
+
+/*проект заголовок*/
+.project h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--color-for-title);
+}
+
+/*проект текст*/
+.project p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/*чим мы займ*/
+.example {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--color-for-title);
+}
+
+/*фамилии*/
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--color-for-title);
+}
+
+/*профессии*/
+.team {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* футер */
+.adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--color-button-text);
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*studio*/
+.studio-footer {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
